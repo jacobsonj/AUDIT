@@ -1,0 +1,74 @@
+#main{
+    .heading{
+        width: calc(100%-40px);
+        padding: 20px;
+        background-color: #99badd55;
+        margin-bottom: 20px;
+        .subheading{
+            font-size: 22px;
+        }
+        .heading-title{
+            font-size: 34px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .heading-subtitle{
+            font-size: 22px;
+        }
+        .heading-subtitle-small{
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    }
+    img{
+        width: 40%;
+        min-width: 500px;
+    }
+    .title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+        width: 35%;
+        height: 10%;
+        background-color: #99badd55;
+    }
+    .question{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 5px;
+        padding-left: 20px;
+        width: 35%;
+        margin-bottom: 10px;
+        .radio{
+            margin-right:10px;
+        }
+    }
+    .results-main{
+        padding: 20px;
+        height: 45%;
+        width: 35%;
+        background-color: #99badd55;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        .results-total{
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+        .results-clinical{
+            font-size: 22px;
+        }
+        .domain-heading{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 35px;
+        }
+        .domain{
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+    }
+}
